@@ -3,7 +3,7 @@ $.bootstrapGrowl.defaults = $.extend on, $.bootstrapGrowl.defaults,
   width:       250
 
   # Auto-dismiss timeout. Set it to 0 if you want to disable auto-dismiss
-  delay:       4000
+  delay:       0
 
   # Spacing between boxes in stack
   spacing:     10
@@ -33,4 +33,4 @@ $.bootstrapGrowl.defaults = $.extend on, $.bootstrapGrowl.defaults,
   # Offset from window bounds
   offset:      
     from:      'top'
-    amount:    20
+    amount:    50
